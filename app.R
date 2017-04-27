@@ -4,7 +4,7 @@ library(ggplot2)
 library(reshape2)
 library(plotly)
 
-setwd('~/Documents/Data Viz/')
+#setwd('~/Documents/Data Viz/')
 
 df <- read.csv('dataset_Facebook.csv',na.strings="",header = TRUE, sep = ';')
 ui = fluidPage(
