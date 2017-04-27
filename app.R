@@ -1,7 +1,7 @@
+install.packages('GGally')
+library(GGally)
 library(shiny)
-library(ggvis)
 library(ggplot2)
-library(reshape2)
 library(plotly)
 
 #setwd('~/Documents/Data Viz/')
